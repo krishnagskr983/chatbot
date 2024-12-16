@@ -162,5 +162,6 @@ cython_debug/
 #.idea/
 
 
+.env
 my_venv
 model/llama-2-7b-chat.ggmlv3.q4_0.bin
