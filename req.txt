@@ -1,0 +1,5 @@
+langchain==0.3.12
+langchain-community==0.3.12
+pypdf==5.1.0
+python-dotenv==1.0.1
+sentence-transformers==3.3.1
