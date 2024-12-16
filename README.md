@@ -29,3 +29,5 @@ pip install -r req.txt
 ```bash
 pip list
 ```
+
+Used python 3.11.5 version 
