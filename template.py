@@ -6,16 +6,16 @@ logging.basicConfig(level=logging.INFO, format='[%(asctime)s]: %(message)s:')
 
 
 list_of_files = [
-    "src/__init__.py",
-    "src/helper.py",
-    "src/prompt.py",
-    ".env",
-    "setup.py",
-    "static/style.css",
-    "research/trials.ipynb",
-    "app.py",
-    "store_index.py",
-    "templates/chat.html"
+  "src/__init__.py",
+  "src/helper.py",
+  "src/prompt.py",
+  ".env",
+  "setup.py",
+  "static/style.css",
+  "research/trials.ipynb",
+  "app.py",
+  "store_index.py",
+  "templates/chat.html"
 ]
 
 

@@ -1,0 +1,164 @@
+/* General body and html settings */
+body, html {
+  height: 100%;
+  margin: 0;
+  background: rgb(44, 47, 59);
+  background: -webkit-linear-gradient(to right, rgb(40, 59, 34), rgb(54, 60, 70), rgb(32, 32, 43));
+  background: linear-gradient(to right, rgb(38, 51, 61), rgb(50, 55, 65), rgb(33, 33, 78));
+}
+
+/* Chat container */
+.chat {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+/* Chat card styles */
+.card {
+  height: 500px;
+  border-radius: 15px !important;
+  background-color: rgba(0, 0, 0, 0.4) !important;
+}
+
+/* Card header and footer */
+.card-header {
+  border-radius: 15px 15px 0 0 !important;
+  border-bottom: 0 !important;
+}
+
+.card-footer {
+  border-radius: 0 0 15px 15px !important;
+  border-top: 0 !important;
+}
+
+/* Message card body */
+.msg_card_body {
+  overflow-y: auto;
+  padding: 10px;
+}
+
+/* Input box for typing messages */
+.type_msg {
+  background-color: rgba(0, 0, 0, 0.3) !important;
+  border: 0 !important;
+  color: white !important;
+  height: 60px !important;
+  overflow-y: auto;
+}
+
+.type_msg:focus {
+  box-shadow: none !important;
+  outline: 0px !important;
+}
+
+/* Send button styling */
+.send_btn {
+  border-radius: 0 15px 15px 0 !important;
+  background-color: rgba(0, 0, 0, 0.3) !important;
+  border: 0 !important;
+  color: white !important;
+  cursor: pointer;
+}
+
+/* Message containers */
+.msg_cotainer {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 10px;
+  border-radius: 25px;
+  background-color: rgb(82, 172, 255);
+  padding: 10px;
+  position: relative;
+}
+
+.msg_cotainer_send {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 10px;
+  border-radius: 25px;
+  background-color: #58cc71;
+  padding: 10px;
+  position: relative;
+}
+
+/* Message timestamps */
+.msg_time {
+  position: absolute;
+  left: 0;
+  bottom: -15px;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 10px;
+}
+
+.msg_time_send {
+  position: absolute;
+  right: 0;
+  bottom: -15px;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 10px;
+}
+
+/* User image styling */
+.user_img {
+  height: 70px;
+  width: 70px;
+  border: 1.5px solid #f5f6fa;
+}
+
+.user_img_msg {
+  height: 40px;
+  width: 40px;
+  border: 1.5px solid #f5f6fa;
+}
+
+/* Image container */
+.img_cont {
+  position: relative;
+  height: 70px;
+  width: 70px;
+}
+
+.img_cont_msg {
+  height: 40px;
+  width: 40px;
+}
+
+/* Online/offline indicators */
+.online_icon {
+  position: absolute;
+  height: 15px;
+  width: 15px;
+  background-color: #4cd137;
+  border-radius: 50%;
+  bottom: 0.2em;
+  right: 0.4em;
+  border: 1.5px solid white;
+}
+
+.offline {
+  background-color: #c23616 !important;
+}
+
+/* User information section */
+.user_info {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 15px;
+}
+
+.user_info span {
+  font-size: 20px;
+  color: white;
+}
+
+.user_info p {
+  font-size: 10px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* Responsive styles */
+@media (max-width: 576px) {
+  .contacts_card {
+    margin-bottom: 15px !important;
+  }
+}
